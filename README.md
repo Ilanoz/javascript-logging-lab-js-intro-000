@@ -60,7 +60,7 @@ At the very top of the file, you'll see
 ``` javascript
 const expect = require('expect')
 const fs = require('fs')
-const jsdom = require('mocha-jsdom')
+const jsdom = require('jsdom')
 const path = require('path')
 ```
 
@@ -146,7 +146,7 @@ on, we leave the errors intentionally ambiguous for you to work out.
 ## Your turn
 
 Now it's your turn — can you follow a flow similar to the one we followed
-together above to get the remaining to tests to pass?
+together above to get the remaining two tests to pass?
 
 Imagine that you're building the user interface for a fancy ATM machine.
 Because the developers are hip with the latest trends, they're using
